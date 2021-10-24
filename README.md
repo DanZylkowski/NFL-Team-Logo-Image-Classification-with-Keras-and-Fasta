@@ -4,3 +4,5 @@ Image classification is an exciting subclass of computer vision. Important uses 
 The project has three parts: data collection and cleaning, training a Convolutional Neural Network (CNN) from scratch in [Keras](https://keras.io/), and finally building a model on top of the ResNet50 model using the [fastai](https://www.fast.ai/) library. The goal of the project is to create a CNN model that will classify NFL team logo images with high accuracy. While the focus of the project is to classify NFL team logos, the project could be used as a template for creating CNN models that can classify other types of images with only slight modifications to the data collection and modeling steps.
 
 The images used in the project can be downloaded from [google drive](https://drive.google.com/drive/folders/1aM-0xHmFzcPjx1pa0hImghVUhezYLkfa).
+
+The final model that achieved 98.8% accuracy can also be downloaded [google drive](https://drive.google.com/file/d/1-depiOTcFrDxd2sOKo-RIsRfU6iCgjA9/view?usp=sharing)
