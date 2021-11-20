@@ -6,3 +6,8 @@ The project has three parts: data collection and cleaning, training a Convolutio
 The images used in the project can be downloaded from [google drive](https://drive.google.com/drive/folders/1aM-0xHmFzcPjx1pa0hImghVUhezYLkfa).
 
 The final model that achieved 98.8% accuracy can also be downloaded [google drive](https://drive.google.com/file/d/1-depiOTcFrDxd2sOKo-RIsRfU6iCgjA9/view?usp=sharing)
+
+---
+### An important note on image curation.
+
+The final stage of the image collection process is to manually review the images in each folder. I needed to make sure that there are no mislabeled images, and no repeated images of the same size. I found many duplicate sized images and images that were misclassified by the bing image search engine. I used domain knowledge of the team logos to ensure that all images were correctly labeled prior to model training. The curation of the images was by far the most time consuming step of the project, but was also the most critical. Failing to remove incorrectly labeled images would cause the model to propogate the misclassification, and would limit the accuracy of any model that is built using the data.
